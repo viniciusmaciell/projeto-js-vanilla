@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Candal&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Candal&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 1.5rem;
+  font-family: "Candal", sans-serif;
+}
+body {
+  text-align: center;
+  color: white;
+  font-family: "Candal", sans-serif;
+}
+/* .tarefaConcluida {
+    text-decoration: line-through;
+} */
+.inputText {
+  border-radius: 10px;
+  padding: 0.4rem;
+  margin-bottom: 1rem;
+
+  outline: none;
+}
+
+.conteudoTarefa:hover {
+  font-weight: bold;
+}
+
+#conteudo {
+  position: relative;
+  top: 10vh;
+  left: 30%;
+  background-color: #282c34;
+  width: 40%;
+  padding: 2rem;
+  border-radius: 30px 10px;
+  box-shadow: 6px 6px 13px 0px #0000009e;
+}
+.img-task {
+  max-width: 3.25rem;
+  filter: invert(100%) sepia(0%) saturate(7483%) hue-rotate(173deg)
+    brightness(99%) contrast(109%);
+}
+.item {
+  margin: 1rem 0 1rem 0;
+  background-color: rgba(0, 0, 0, 0.336);
+  border-radius: 0.7rem;
+  padding: 0.5rem;
+}
